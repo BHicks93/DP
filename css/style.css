@@ -1,0 +1,43 @@
+body{ 
+    margin: 0;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+#container{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+	}
+h1 { 
+    color:#fff;
+    text-align: center;
+    font-size: 10em;
+    font-weight: 800;
+    white-space: nowrap;
+}
+#imgContainer{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    width:200px;
+    padding-top: 200px;
+}
+#signUp img{
+    width:100%;
+}
+#volunteer img{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
