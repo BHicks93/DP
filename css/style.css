@@ -10,18 +10,16 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
 }
-#container{
-    position: absolute;
-    top: 30%;
-    left:50%;
-    transform: translate(-50%, -50%);
-	}
 h1 { 
     color:#fff;
     text-align: center;
     font-size: 10em;
     font-weight: 800;
     white-space: nowrap;
+}
+.header { 
+    background:#000;
+    text-align: center;
 }
 h2 { 
     color:#fff;
